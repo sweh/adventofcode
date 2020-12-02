@@ -1,4 +1,5 @@
 .session
 bin/
 lib/
+src/session.egg-info/
 pyvenv.cfg
