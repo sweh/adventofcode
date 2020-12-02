@@ -1,6 +1,6 @@
 from session import fetch
 
-RAW_DATA = fetch('https://adventofcode.com/2020/day/1/input')
+RAW_DATA = fetch("https://adventofcode.com/2020/day/1/input")
 
 INPUT = [int(i) for i in RAW_DATA.splitlines()]
 
@@ -13,7 +13,7 @@ for i in INPUT:
             break
         if i + j == 2020:
             found = True
-            print(f'PART I: {i * j}')
+            print(f"PART I: {i * j}")
 
 found = False
 for i in INPUT:
@@ -27,4 +27,4 @@ for i in INPUT:
                 break
             if i + j + k == 2020:
                 found = True
-                print(f'PART II: {i * j * k}')
+                print(f"PART II: {i * j * k}")
