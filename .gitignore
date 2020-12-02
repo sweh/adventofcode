@@ -1,0 +1,4 @@
+.session
+bin/
+lib/
+pyvenv.cfg
