@@ -1,9 +1,6 @@
-import requests
+from session import fetch
 
-session =  requests.session()
-session.cookies['session'] = open('.session', 'r').read().splitlines()[0]
-response = session.get('https://adventofcode.com/2020/day/1/input')
-RAW_DATA = response.text
+RAW_DATA = fetch('https://adventofcode.com/2020/day/1/input')
 
 INPUT = [int(i) for i in RAW_DATA.splitlines()]
 
