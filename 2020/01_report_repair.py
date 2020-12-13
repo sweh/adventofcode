@@ -1,6 +1,6 @@
 from session import fetch
 
-RAW_DATA = fetch("https://adventofcode.com/2020/day/1/input")
+RAW_DATA = fetch(2020, 1)
 
 INPUT = [int(i) for i in RAW_DATA.splitlines()]
 

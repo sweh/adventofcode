@@ -1,6 +1,6 @@
 from session import fetch
 
-RAW_DATA = fetch("https://adventofcode.com/2020/day/2/input")
+RAW_DATA = fetch(2020, 2)
 
 result_part_1 = 0
 result_part_2 = 0
